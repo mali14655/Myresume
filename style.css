@@ -1,0 +1,218 @@
+body{
+    background-color: bisque;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1d3557;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+footer{
+    background-color: #1d3557;
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+}
+.mainbox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+}
+.box{
+    height: 1380px;
+    width:80%;
+    /* border: 2px solid black; */
+    margin: 100px auto;
+    display: flex;
+}
+.leftbox,.rightbox{
+    display: inline-block;
+}
+.leftbox{
+    width: 30%;
+    height: 99%;
+    background-color: #1d3557;
+
+}
+.rightbox{
+    width: 70%;
+    height: 99%;
+    background-color: aliceblue;
+}
+.imgbox{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px white;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+.name{
+    border-bottom: 1px solid black;
+    margin:40px auto ;
+    height: 100px;
+    width: 80%;
+
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.webd{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+
+.about{
+    /* border: 1px solid black; */
+    margin:20px auto ;
+    min-height: 100px;
+    width: 80%;
+
+}
+.abouth2{
+    text-align: center;
+    color: white;
+
+}
+.aboutp{
+    margin-top: 15px;
+    text-align: center;
+    text-align: justify;
+    text-align-last: center;
+    color: white;
+}
+.contact{
+    /* border:1px solid black; */
+    margin:35px auto ;
+    min-height: 100px;
+    width: 80%;
+}
+.contacth2{
+    text-align: center;
+    color: white;
+
+}
+.details,.skillsdet{
+    text-align: left;
+    padding: 0 5px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    color: white;
+}
+.numspan{
+    margin-left: 10px;
+}
+.emailspan,.instspan{
+    margin-left: 10px;
+    
+}
+.profskills,.int{
+    /* border:1px solid black; */
+    margin:35px auto ;
+    min-height: 100px;
+    width: 80%;   
+    
+}
+.profskh2,.inth2{
+    text-align: center;
+    color: white;
+   
+}
+.skillsdet,.intdet{
+    margin-top: 8xpx;
+    line-height: 27px;
+}
+.intdet{
+    margin-left: 4px;
+    margin-top: 8px;
+    line-height: 28px;
+}
+.lang{
+    /* border: 1px solid black; */
+    margin:35px auto ;
+    min-height: 100px;
+    width: 80%;
+    padding-bottom: 5px;
+
+}
+.langh2{
+    text-align: center;
+    color: white;
+   
+}
+.langdet{
+    text-align: left;
+    padding: 0 5px;
+    margin-bottom: 10xpx;
+    color: white;   
+    margin-top: 8px;
+    line-height: 27px;
+}
+.col-1,.col-2{
+    width: 80%;
+    min-height: 400px;
+    /* border: 1px solid black; */
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.education,.profex{
+    padding: auto;
+    margin: 0 auto;
+}
+.education h2,.profex h2{
+color: #101020;
+padding-top: 30px;
+padding-left: 60px;
+padding-bottom: 30px;
+}
+.edudet{
+    min-height: 40px;
+    display: flex;
+}
+.year,.descrip{
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding-top: 10px;
+}
+.year{
+    width: 20%;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.descrip,.hobbies{
+    width: 85%;
+    padding-left: 45px;
+    padding-top: 13px;
+}
+.descrip p{
+    text-align: justify;
+    padding-top: 5px;
+
+}
+.descrip h4{
+    padding-top: 3px;
+}
